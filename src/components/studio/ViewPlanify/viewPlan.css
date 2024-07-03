@@ -1,0 +1,11 @@
+.view-plan-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 50px;
+  justify-content: space-between;
+}
+.view-plan-container h1 {
+  margin-bottom: 50px;
+  color: rgb(14, 151, 210);
+}

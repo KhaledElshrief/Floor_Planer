@@ -1,0 +1,43 @@
+/* Assuming $Color is a variable that represents a color value */
+
+@import "../../index";
+
+.info {
+  background-color: #fff;
+  border: 2px white solid;
+  border-radius: 10px;
+  /* Replace $Color with the actual color value, e.g., #ff0000 */
+  border-bottom: 10px #c29525 solid;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.info h1 {
+  /* Replace $Color with the actual color value, e.g., #ff0000 */
+  color: #c29525;
+  font-size: 40px;
+}
+
+.info button {
+  color: white !important;
+  /* Replace $Color with the actual color value, e.g., #ff0000 */
+  background-color: #c29525 !important;
+  /* Replace $Color with the actual color value, e.g., #ff0000 */
+  border: 1px solid #c29525;
+}
+
+.info button:hover {
+  color: black !important;
+  background-color: transparent !important;
+  /* Replace $Color with the actual color value, e.g., #ff0000 */
+  border: 1px solid #c29525;
+}
+
+.info p {
+  font-size: 15px;
+}
+
+.info a:hover {
+  /* Replace $Color with the actual color value, e.g., #ff0000 */
+  color: #c29525 !important;
+}
